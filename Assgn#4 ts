@@ -1,0 +1,4 @@
+var Quote="Always forgive your enemies; nothing annoys them so much.";
+var Famous_Person="Oscar Wilde";
+var message= Famous_Person +"Once said, \""+ Quote + "\"";
+console.log(message);
