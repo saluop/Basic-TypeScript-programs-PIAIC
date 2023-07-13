@@ -1,0 +1,2 @@
+var FavNo=69;
+console.log("Favourite Number: ", FavNo);
