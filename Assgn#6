@@ -1,0 +1,8 @@
+var plus = 4+4;
+var minus = 10-2;
+var multiplication = 2*4;
+var division= 16/2;
+console.log ("Addition", plus);
+console.log ("subtraction", minus);
+console.log ("multiply", multiplication);
+console.log ("divide", division);
