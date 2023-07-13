@@ -1,0 +1,17 @@
+var NameWithWhiteSpace= "\t Salman Mustansar \n";
+//Adding  white space
+console.log ("Name with wite space: "+ NameWithWhiteSpace);
+//without white space
+console.log ("Name without white space: "+ NameWithWhiteSpace.trim());
+//Addition
+var plus = 4+4;
+//Subtraction
+var minus = 10-2;
+//Multiply
+var multiplication = 2*4;
+//Divide
+var division= 16/2;
+console.log ("Addition", plus);
+console.log ("subtraction", minus);
+console.log ("multiply", multiplication);
+console.log ("divide", division);
