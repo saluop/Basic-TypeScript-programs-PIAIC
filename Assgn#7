@@ -1,0 +1,8 @@
+var plus = 4+4;
+var minus = 10-2;
+var multiplication = 2*4;
+var division= 16/2;
+console.log (`4+4=${plus}`);
+console.log (`10-2=${minus}`);
+console.log (`2*4=${multiplication}`);
+console.log (`16 \ 2=${division}`);
