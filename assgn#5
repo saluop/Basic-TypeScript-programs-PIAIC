@@ -1,0 +1,3 @@
+var NameWithWhiteSpace= "\t Salman Mustansar \n";
+console.log ("Name with wite space: "+ NameWithWhiteSpace);
+console.log ("Name without white space: "+ NameWithWhiteSpace.trim());
