@@ -1,0 +1,8 @@
+let Guests = ["Muhammad Ali Jinnah", "Andre Tate", "Gogins", "Chris Bumstead"];
+for (let i = 0; i < Guests.length; i++) {
+  console.log(
+    "I would really appreciate if MR. " +
+      Guests[i] +
+      " would like to come to my dinner."
+  );
+}
