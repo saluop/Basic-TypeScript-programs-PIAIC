@@ -1,0 +1,22 @@
+let guests = ["Muhammad Ali Jinnah", "Andre Tate", "Gogins", "Chris Bumstead"];
+
+// Guest who can't make it
+let guestCannotMakeIt = guests[2];
+console.log(`Unfortunately, ${guestCannotMakeIt} can't make it to the dinner.`);
+
+// Replace the guest who can't make it with a new person
+guests[2] = "Rehab";
+
+// Inform about the bigger dinner table
+console.log("Great news! We found a bigger dinner table!");
+
+// Add new guests
+guests.unshift("Isaac Newton"); // Add at the beginning
+guests.splice(Math.floor(guests.length / 2), 0, "Marie Curie"); // Add in the middle
+guests.push("Nikola Tesla"); // Add at the end
+
+// Send new set of invitations
+for (let i = 0; i < guests.length; i++) {
+  let guest = guests[i];
+  console.log(`Dear ${guest},\n\nI would like to invite you to dinner at my place. It would be an honor to have your company and enjoy an evening of good food and conversation. Please let me know if you are available.\n\nSincerely, Salman Mustansar\n`);
+}
