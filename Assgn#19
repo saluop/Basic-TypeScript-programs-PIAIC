@@ -1,0 +1,6 @@
+let wishlist =["Paris","Tokyo", "Shangai" ]
+console.log("Thats my wishlist to go these following year: ")
+for (let i=0; i<wishlist.length;i++)
+{
+    console.log(wishlist[i]);
+}
