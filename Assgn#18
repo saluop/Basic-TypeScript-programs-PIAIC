@@ -1,0 +1,3 @@
+// Count the number of guests and print the count
+let guestCount = guests.length;
+console.log("Number of guests:", guestCount);
