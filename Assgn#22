@@ -1,0 +1,6 @@
+let wishlist = ["Paris", "Tokyo", "Shanghai"];
+console.log("That's my wishlist to go these following year:");
+for (let i = 0; i <= wishlist.length; i++) {
+  console.log(wishlist[i]);
+}
+//In this modified code, I changed the loop condition from i < wishlist.length to i <= wishlist.length. This means that the loop will try to access the element at wishlist[wishlist.length], which is beyond the last valid index 
