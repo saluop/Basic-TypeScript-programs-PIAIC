@@ -1,0 +1,31 @@
+let car = 'subaru';
+
+console.log("Is car == 'subaru'? I predict True.");
+console.log(car == 'subaru'); // Prediction: True
+
+console.log("Is car == 'honda'? I predict False.");
+console.log(car == 'honda'); // Prediction: False
+
+console.log("Is car === 'subaru'? I predict True.");
+console.log(car === 'subaru'); // Prediction: True
+
+console.log("Is car === 'Subaru'? I predict False.");
+console.log(car === 'Subaru'); // Prediction: False
+
+console.log("Is car !== 'toyota'? I predict True.");
+console.log(car !== 'toyota'); // Prediction: True
+
+console.log("Is car !== 'subaru'? I predict False.");
+console.log(car !== 'subaru'); // Prediction: False
+
+console.log("Is car.length > 4? I predict False.");
+console.log(car.length > 4); // Prediction: False
+
+console.log("Is car.length < 10? I predict True.");
+console.log(car.length < 10); // Prediction: True
+
+console.log("Is car.startsWith('su')? I predict True.");
+console.log(car.startsWith('su')); // Prediction: True
+
+console.log("Is car.includes('aru')? I predict True.");
+console.log(car.includes('aru')); // Prediction: True
